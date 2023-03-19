@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./app.js" defer></script>
+  </head>
+  <body>
+    <center>
+      <div class="game-center">
+        <div class="heading">ROCK PAPER SCISSORS</div>
+        <div class="comp-score">
+          <h3>Computer Score</h3>
+          <h1><b id="comp-score">0</b></h1>
+        </div>
+        <div class="our-score">
+          <h3>
+            Your <br />
+            Score
+          </h3>
+          <h1><b id="our-score"></b></h1>
+        </div>
+      </div>
+    </center>
+
+    <div class="img-container">
+       <img src="./Line 1.png" class="line1" alt="">
+       <img src="./Line 2.png" class="line2" alt="">
+       <img src="./Line 3.png" class="line3" alt="">
+      <div class="scissor-img" id="scissors">
+        <img src="./icons8-fist-67 1.png" />
+       
+      </div>
+      <div class="paper-img" id="paper">
+        <img src="./17911 1.png" />
+      </div>
+      <div class="rock-img" id="rock">
+        <img src="./icons8-hand-64 1.png" />
+      </div>
+    </div>
+
+     <div class="popup__container">
+            <div class="popup" onclick="popFunction()" >Rules
+                <img src="./Frame 4.png" class="popuptext" id="myPopup"/>
+                <div class="cross"><img src="./X.png" alt=""></div>
+              </div>
+        </div>
+    </div>
+  </body>
+</html>

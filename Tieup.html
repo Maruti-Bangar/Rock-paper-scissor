@@ -1,0 +1,57 @@
+    <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./app.js" defer></script>
+  </head>
+  <body>
+    <center>
+      <div class="game-center">
+        <div class="heading">ROCK PAPER SCISSORS</div>
+        <div class="comp-score">
+          <h3>Computer Score</h3>
+          <h1><b id="comp-score">0</b></h1>
+        </div>
+        <div class="our-score">
+          <h3>
+            Your <br />
+            Score
+          </h3>
+          <h1><b id="our-score">0</b></h1>
+        </div>
+      </div>
+    </center>
+
+    <div class="heading1">
+   <div> <b id="head1">YOU PICKED</b></div>
+   <div> <b id="head2">PC PICKED</b></div>
+    </div>
+    <div class="img-container">
+     
+      <div class="paper-img3" id="paper">
+        <img src="./icons8-fist-67 1.png" />
+      </div>
+      <div class="win-part">
+        <span>TIE UP</span><br>
+        <br><br>
+        <button>  <a href="./index.html" id="replay"> REPLAY</a></button>
+      </div>
+      <div class="rock-img3" id="rock">
+        <img src="./icons8-fist-67 1.png" />
+      </div>
+    </div>
+
+   <div class="frame">
+      <div class="layer" onclick="layer()" id="frame-layer">
+        <div class="popup layer1-text" onclick="popFunction()" >Rules
+            <img src="./Frame 4.png" class="popuptext" id="myPopup"/>
+            <div class="cross"><img src="./X.png" alt=""></div>
+          </div>
+      </div>
+    </div>
+  </body>
+</html>
